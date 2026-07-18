@@ -1,32 +1,82 @@
+<div align="center">
+
 # 🎮 Simon Says Game
 
-A fun and interactive memory game built using **HTML, CSS, and JavaScript**.
+A classic memory game built with HTML, CSS, and JavaScript.
 
-The game challenges players to remember and repeat an increasingly long sequence of flashing colored boxes. Each successful round adds a new step to the sequence, making the game progressively more difficult. The objective is to achieve the highest score possible before making a mistake.
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+</p>
+
+</div>
+
+---
+
+## 🎯 About
+
+Simon Says Game is a browser-based memory challenge where players must remember and repeat an increasingly long sequence of colored box flashes. The project focuses on core JavaScript concepts such as DOM manipulation, event handling, sequence management, and game state handling.
+
+---
 
 ## ✨ Features
 
 - Dynamic level progression
 - Random sequence generation
-- Visual feedback for game and user actions
-- Score tracking
-- Game over detection and reset functionality
-- Clean and responsive user interface
+- Interactive gameplay
+- Visual feedback for game actions
+- User input validation
+- Level tracking
+- Game over detection
+- Restart functionality
+- Responsive user interface
+- Keyboard-based game start
 
-## 🛠️ Technologies Used
+---
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+## 🛠 Tech Stack
 
-## 🎯 How to Play
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript (ES6) | Game Logic |
 
-1. Press any key to start the game.
-2. Watch the box that flashes.
-3. Click the boxes in the same order shown by the game.
-4. Each new level adds another box to the sequence.
-5. Continue repeating the complete sequence correctly.
-6. The game ends when an incorrect box is selected.
+---
+
+## 🎮 How to Play
+
+| Step | Action |
+|------|---------|
+| 1 | Press any key to start the game |
+| 2 | Watch the box that flashes |
+| 3 | Repeat the sequence by clicking the boxes |
+| 4 | A new box is added every level |
+| 5 | Continue repeating the full sequence |
+| 6 | The game ends if you click the wrong box |
+
+---
+
+## ⚙️ How It Works
+
+### Sequence Generation
+
+The game randomly selects a box and adds it to the existing sequence at every level.
+
+### User Input
+
+Players must repeat the exact sequence shown by the game.
+
+### Level Progression
+
+Each successful round increases the level and extends the sequence.
+
+### Game Over
+
+The game ends when the user's sequence does not match the generated sequence.
+
+---
 
 ## 📂 Project Structure
 
@@ -35,34 +85,46 @@ Simon-Says-Game/
 │
 ├── index.html
 ├── style.css
-└── app.js
+├── app.js
+└── README.md
 ```
 
-## 📚 Concepts Practiced
-
-- DOM Manipulation
-- Event Handling
-- Arrays and Sequence Management
-- Random Number Generation
-- Game State Management
-- JavaScript Functions
-- CSS Styling and Animations
+---
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/KumarSuryansh108/Simon-Says-Game.git
 ```
 
-2. Open the project folder.
+Open the project folder and run:
 
-3. Run `index.html` in your browser.
+```text
+index.html
+```
 
-## 🎓 Learning Outcome
+No installation or external dependencies are required.
 
-This project helped strengthen core JavaScript concepts by building a complete interactive browser game from scratch, focusing on logic building, user interaction, and state management.
+---
+
+## 🧠 Concepts Used
+
+- DOM Manipulation
+- Event Handling
+- Arrays & Sequence Management
+- Random Number Generation
+- Game State Management
+- JavaScript Functions
+- CSS Styling
+- CSS Animations
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving the repository a star.
 
 ---
 
